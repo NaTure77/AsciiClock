@@ -12,11 +12,11 @@ namespace ThreeDimClock
 			Console.CursorVisible = false;
 			ConsoleHelper.SetCurrentFont("Terminal", 6);
 			ConsoleHelper.SetWindowSize(size + 4, size + 4);
-			
+			Console.Title = "Ascii Clock 3D";
 			/***************************3D version**************************/
 			//Generating Viewer
 			Viewer3d viewer = new Viewer3d(size);
-			DrawCube(viewer.space);
+			//DrawCube(viewer.space);
 			viewer.Start();
 			
 			//Generating Clock
