@@ -1,5 +1,5 @@
 ## DESCRIPTION
-The Simple Ackii 3d Clock.
+The Simple Ascii 3d Clock.
 
 ## HOW TO USE
 Execute Compile.bat. And then the EXE file will be generated.
